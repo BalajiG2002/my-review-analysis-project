@@ -1,0 +1,36 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, ol {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  /* Styles for the entire application */
+  #root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Styles for review container */
+  .review-container {
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  /* Styles for graphs and bars */
+  .graph-container {
+    margin-top: 20px;
+  }
+  
+  /* Add your additional global styles below */
+  
